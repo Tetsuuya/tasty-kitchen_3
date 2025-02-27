@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
       </div>
       <div>
         {user ? (
-          <button className="bg-red-400 px-4 py-2 rounded" onClick={logout}>
+          <button className="bg-gray-700 opacity-70 px-4 py-2 rounded" onClick={logout}>
             Logout
           </button>
         ) : (
